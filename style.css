@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 100px;
+}
+.logo {
+  width: 70px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+li {
+  padding: 8px;
+  font-size: 0.8rem;
+  color: hsl(238, 22%, 44%);
+  font-weight: 700;
+}
+main {
+  text-align: center;
+}
+h2 {
+  font-size: 1rem;
+}
+.horyzontalMargin {
+  margin: 0 25px 0 25px;
+}
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+.illustration {
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.firstParagraph h1 {
+  font-size: 1.5rem;
+  color: hsl(243, 87%, 12%);
+}
+.firstParagraph p {
+  font-size: 0.9rem;
+  color: hsl(243, 87%, 12%);
+  padding: 30px 20px 30px 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.firstParagraph form {
+  padding: 0 15px 0 15px;
+  padding-bottom: 60px;
+}
+.firstParagraph input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid hsl(243, 87%, 12%);
+  font-size: 0.75rem;
+}
+input[type="button"] {
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  border-color: transparent;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  background-color: hsl(224, 93%, 70%);
+}
+::placeholder {
+  color: hsl(0, 0%, 75%);
+}
+.inputAlert {
+  color: rgb(243, 98, 98);
+  font-size: 0.8rem;
+}
+input.redBorder {
+  border-color: rgb(243, 98, 98);
+}
+.secondParagraphWrapper {
+  background-color: rgb(248, 248, 254);
+  color: hsl(243, 87%, 12%);
+  padding: 0 20px 50px 20px;
+}
+.secondParagraph h2 {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  color: hsl(243, 87%, 12%);
+  text-align: center;
+}
+.secondParagraph > p {
+  text-align: left;
+  font-size: 0.9rem;
+  padding: 10px 20px 10px 20px;
+  color: hsl(238, 22%, 44%);
+}
+.bg-curve-mobile {
+  background-color: white;
+  border-color: transparent;
+  display: block;
+}
+.bg-curve-desktop {
+  display: none;
+}
+.linkContainer {
+  width: 8.5em;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  justify-content: center;
+  margin: auto;
+  line-height: 1.6rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.linkContainer span:hover {
+  color: hsl(170, 45%, 75%);
+}
+
+.linkContainer span {
+  font-size: 0.75rem;
+  color: hsl(170, 45%, 70%);
+  padding-right: 5px;
+  vertical-align: middle;
+}
+.linkContainer img {
+  height: 1rem;
+  width: auto;
+  vertical-align: middle;
+}
+
+.card {
+  background-color: white;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px 18px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px hsl(0, 0%, 75%);
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 10px;
+}
+.card p {
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+.author {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.author img {
+  border-radius: 50%;
+  width: 25px;
+}
+
+.signUpWrapper {
+  background-color: rgb(87, 89, 137);
+  color: white;
+  padding: 60px 50px 60px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signUpWrapper p {
+  font-size: 0.8rem;
+}
+.signUpWrapper h2 {
+  padding-bottom: 20px;
+}
+
+.signUpWrapper form {
+  padding: 0 15px 0 15px;
+}
+.signUpWrapper input {
+  padding: 6px;
+  border-radius: 2px;
+  border-color: transparent;
+  font-size: 0.6rem;
+}
+.signUpWrapper input[type="button"] {
+  font-weight: bold;
+}
+.inputAlert2 {
+  font-size: 0.8rem;
+  text-align: left;
+}
+input.redBorder {
+  border-color: rgb(243, 98, 98);
+}
+footer {
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footerLogo {
+  width: 160px;
+  height: auto;
+}
+.contact {
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  padding-bottom: 20px;
+}
+.contact img {
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+footer li {
+  padding: 8px;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: normal;
+  cursor: pointer;
+}
+footer li:hover {
+  color: hsl(224, 93%, 70%);
+}
+
+.socialMediaIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.socialMediaIcons a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  height: 35px;
+  width: 35px;
+  scale: 0.8;
+}
+.socialMediaIcons a:hover {
+  color: hsl(224, 93%, 70%);
+  border-color: hsl(224, 93%, 70%);
+}
+
+@media (min-width: 376px) {
+  p,
+  h1,
+  h2 {
+    text-align: left;
+  }
+  header {
+    padding: 25px;
+  }
+  .logo {
+    width: 170px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  li {
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+  .firstParagraph {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 25px;
+    align-items: center;
+  }
+
+  .illustration {
+    width: 50%;
+    height: auto;
+    padding: 0 0 0 40px;
+  }
+
+  .firstParagraph h1 {
+    font-size: 2.5rem;
+  }
+  .firstParagraph p {
+    font-size: 1.1rem;
+    padding-left: 0;
+    width: 90%;
+  }
+
+  .firstParagraph form {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .firstParagraph input {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 50%;
+  }
+  input[type="button"] {
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-color: transparent;
+    font-size: 0.9rem;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: auto;
+  }
+
+  .bg-curve-mobile {
+    display: none;
+  }
+  .bg-curve-desktop {
+    display: block;
+    background-color: white;
+    border-color: transparent;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .secondParagraphWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .secondParagraph h2,
+  .secondParagraph p {
+    text-align: left;
+    padding-left: 25px;
+  }
+  .secondParagraph h2 {
+    font-size: 2.5rem;
+  }
+  .secondParagraph p {
+    width: 80%;
+  }
+  .secondParagraphWrapper .illustration {
+    width: 40%;
+  }
+  .linkContainer {
+    margin-left: 25px;
+    margin-top: 0;
+    width: 11rem;
+  }
+  .linkContainer span {
+    font-size: 1rem;
+    color: hsl(170, 45%, 43%);
+    padding-right: 5px;
+    vertical-align: middle;
+  }
+  .linkContainer img {
+    height: 1.2rem;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  .card {
+    margin-left: 25px;
+    width: 42%;
+    padding: 20px 40px;
+  }
+  .card p {
+    padding: 0;
+    font-size: 0.8rem;
+    width: 100%;
+    /* letter-spacing: 0.05rem; */
+    font-weight: 400;
+  }
+  .name {
+    font-size: 0.65rem;
+    letter-spacing: 0.05rem;
+  }
+  .signUpWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    padding: 100px 50px;
+    align-items: center;
+  }
+  .signUpText {
+    width: 40%;
+  }
+  .signUpText h2 {
+    font-size: 1.8rem;
+  }
+  .signUpText p {
+    font-size: 0.95rem;
+    letter-spacing: 0.05rem;
+    line-height: 1.5;
+  }
+  .signUpWrapper form {
+    width: 40%;
+    margin-right: 50px;
+  }
+  .signUpWrapper input {
+    padding: 15px;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .signUpWrapper input[type="button"] {
+    font-weight: bold;
+    font-size: 0.9rem;
+    width: 45%;
+    min-width: 180px;
+  }
+
+  footer {
+    padding-top: 100px;
+  }
+  footer ul {
+    padding: 0;
+  }
+  .footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .socialMediaIcons {
+    padding-right: 10%;
+  }
+}
